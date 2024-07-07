@@ -1,0 +1,22 @@
+{
+  "useTabs": false,
+  "tabWidth": 4,
+  "printWidth": 120,
+  "endOfLine": "auto",
+  "semi": true,
+  "trailingComma": "none",
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "singleQuote": true,
+  "quoteProps": "as-needed",
+  "jsxSingleQuote": false,
+  "jsxBracketSameLine": false,
+  "overrides": [
+    {
+      "files": ["*.html", "*.json", ".eslintrc", ".prettierrc", "*.yml"],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}
